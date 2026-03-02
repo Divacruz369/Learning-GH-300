@@ -110,9 +110,116 @@ activities = {
         "schedule": "Thursdays, 3:30 PM - 4:45 PM",
         "max_participants": 20,
         "participants": ["sophia@mergington.edu", "brandon@mergington.edu"]
+    },
+    "Soccer Team": {
+        "description": "Competitive soccer with training and matches",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["zachary@mergington.edu"]
+    },
+    "Track and Field": {
+        "description": "Running, jumping, and athletic events",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 25,
+        "participants": ["chloe@mergington.edu", "ethan@mergington.edu"]
+    },
+    "Ceramics Workshop": {
+        "description": "Pottery, clay sculpting, and ceramic arts",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 12,
+        "participants": ["lily@mergington.edu"]
+    },
+    "Creative Writing Club": {
+        "description": "Fiction, poetry, and creative storytelling",
+        "schedule": "Mondays, 3:30 PM - 4:45 PM",
+        "max_participants": 16,
+        "participants": ["harper@mergington.edu", "amelia@mergington.edu"]
+    },
+    "Model United Nations": {
+        "description": "International diplomacy, debate, and advocacy",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 30,
+        "participants": ["jackson@mergington.edu"]
+    },
+    "Computer Science Club": {
+        "description": "Advanced programming, AI, and software development",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["madison@mergington.edu", "henry@mergington.edu"]
+    },
+    "Badminton Club": {
+        "description": "Badminton skills, racquet techniques, and friendly competitions",
+        "schedule": "Saturdays, 2:00 PM - 3:30 PM",
+        "max_participants": 14,
+        "participants": ["victoria@mergington.edu"]
+    },
+    "Cross Country Team": {
+        "description": "Competitive long-distance running and trail racing",
+        "schedule": "Mondays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["andrew@mergington.edu", "rachel@mergington.edu"]
+    },
+    "Dance Club": {
+        "description": "Contemporary, hip-hop, and ballroom dance instruction",
+        "schedule": "Tuesdays and Thursdays, 3:45 PM - 5:00 PM",
+        "max_participants": 24,
+        "participants": ["sophie@mergington.edu", "marcus@mergington.edu"]
+    },
+    "Painting Studio": {
+        "description": "Oil, acrylic, and watercolor painting techniques",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 16,
+        "participants": ["claire@mergington.edu"]
+    },
+    "Philosophy Club": {
+        "description": "Discussion of ethics, logic, and philosophical ideas",
+        "schedule": "Thursdays, 3:30 PM - 4:45 PM",
+        "max_participants": 18,
+        "participants": ["benjamin@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Environmental Science Club": {
+        "description": "Ecology, sustainability, and conservation projects",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["jessica@mergington.edu"]
+    },
+    "Golf Team": {
+        "description": "Golf techniques, course management, and tournament play",
+        "schedule": "Tuesdays and Thursdays, 3:00 PM - 4:30 PM",
+        "max_participants": 12,
+        "participants": ["christopher@mergington.edu"]
+    },
+    "Lacrosse Team": {
+        "description": "Fast-paced team sport with emphasis on skill development",
+        "schedule": "Mondays and Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["aiden@mergington.edu", "zoe@mergington.edu"]
+    },
+    "Sculpture Studio": {
+        "description": "Stone, metal, and wood sculpture with hands-on projects",
+        "schedule": "Wednesdays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 14,
+        "participants": ["julia@mergington.edu"]
+    },
+    "Film Club": {
+        "description": "Filmmaking, cinematography, and video production",
+        "schedule": "Thursdays, 3:30 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": ["lucas@mergington.edu", "emma@mergington.edu"]
+    },
+    "Debate Competition Team": {
+        "description": "Specialized training for competitive debate tournaments",
+        "schedule": "Mondays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["michael@mergington.edu"]
+    },
+    "Engineering and Architecture Club": {
+        "description": "Structural design, CAD modeling, and building projects",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["david@mergington.edu", "charlotte@mergington.edu"]
     }
 }
-
 
 @app.get("/")
 def root():
